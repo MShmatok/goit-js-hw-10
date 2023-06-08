@@ -10,7 +10,13 @@ img {
   display: inline-block;
   object-fit: contain;
 }
-
+.container {
+  width: 1200px;
+}
+section {
+  width: 1150px;
+  margin: 0 auto;
+}
 .cat-info {
   display: flex;
   gap: 15px;
