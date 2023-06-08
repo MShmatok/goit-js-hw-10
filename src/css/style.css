@@ -1,0 +1,42 @@
+h2 {
+  font-size: 25px;
+}
+
+span {
+  font-weight: 600;
+}
+
+img {
+  display: inline-block;
+  object-fit: contain;
+}
+
+.cat-info {
+  display: flex;
+  gap: 15px;
+
+  padding: 15px;
+  padding-left: 0;
+}
+.loader {
+  font-size: 18px;
+  font-weight: 700;
+}
+.error {
+  font-size: 18px;
+  font-weight: 700;
+  color: red;
+}
+.is-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
